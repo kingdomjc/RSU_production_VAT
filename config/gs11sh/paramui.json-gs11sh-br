@@ -1,0 +1,15 @@
+[
+	{"name":"cableComsuption","desc":"线损","type":"float"},
+	{"name":"gs11.wakeup.power.low","desc":"唤醒功率下限","type":"float"},
+	{"name":"gs11.wakeup.power.high","desc":"唤醒功率上限","type":"float"},
+	{"name":"gs11.sendPower.low","desc":"发射功率下限","type":"float"},
+	{"name":"gs11.sendPower.high","desc":"发射功率上限","type":"float"},
+	{"name":"gs11.receiveSensitivity.power","desc":"接收灵敏度测试功率","type":"float"},
+
+	{"name":"gs10PlateDeviceCom-slot1","desc":"槽位[1]工装板串口号","type":"str"},
+	{"name":"gs10PlateDeviceCom-slot2","desc":"槽位[2]工装板串口号","type":"str"},
+	{"name":"gs10PlateDeviceCom-slot3","desc":"槽位[3]工装板串口号","type":"str"},
+	{"name":"gs10PlateDeviceCom-slot4","desc":"槽位[4]工装板串口号","type":"str"}
+
+
+]

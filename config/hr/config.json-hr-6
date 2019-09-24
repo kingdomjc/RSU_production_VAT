@@ -1,0 +1,23 @@
+{
+ "defaultSuite": "\u529f\u5206\u5668\u81ea\u52a8\u6d4b\u8bd5", 
+ "defaultProduct": "\u6d77\u5c14-\u529f\u5206\u5668", 
+ "RD201SerialPort": "com13", 
+ "productSlotsPerLine": 3, 
+ "autoLoginUsername": "super", 
+ "vectorNetworkAnalyzerPort": 5025, 
+ "RD201TargetTagCount": 50, 
+ "beepFreq": 2000, 
+ "vectorNetworkAnalyzerIp": "222.255.255.201", 
+ "saRelAmpl": 29.2, 
+ "maxLogItemNumber": 1000, 
+ "spectrumAnalyzerPort": 5025, 
+ "VNAStateFile": "D:\\state02.sta", 
+ "defaultServerIp": "single", 
+ "SP_PARAM": "config/hr/spParam-6.json", 
+ "continuesTagCount": 5, 
+ "workbay": "patch", 
+ "powerDividerCtrlCom": "com1", 
+ "spectrumAnalyzerIp": "222.255.255.210", 
+ "autoLoginPassword": "000000", 
+ "PARAM_UI_FILENAME": "config/hr/paramui.json-hr"
+}

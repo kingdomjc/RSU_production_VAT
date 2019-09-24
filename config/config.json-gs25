@@ -1,0 +1,17 @@
+{
+ "defaultSuite": "GS25\u5355\u677f\u6d4b\u8bd5", 
+ "defaultProduct": "GS25", 
+ "autoLoginUsername": "machinetest", 
+ "boardResult": true, 
+ "beepFreq": 2000, 
+ "miReadCardId": "0489fe0f", 
+ "initCrid": "0000", 
+ "maxLogItemNumber": 1000, 
+ "rsuInfo": "240000010001", 
+ "tradePsamSlot": 3, 
+ "defaultServerIp": "single", 
+ "workbay": "002", 
+ "gs25SerialPort": "COM2", 
+ "autoLoginPassword": "000000", 
+ "PARAM_UI_FILENAME": "hhplt/paramui.json-gs25"
+}

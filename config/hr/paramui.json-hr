@@ -1,0 +1,12 @@
+[
+	{"name":"RD201SerialPort","desc":"阅读器串口号","type":"str"},
+    {"name":"RD201TargetTagCount","desc":"需要读取到多少个标签","type":"int"},
+    {"name":"spectrumAnalyzerIp","desc":"频谱仪地址","type":"str"},
+    {"name":"spectrumAnalyzerPort","desc":"频谱仪端口","type":"int"},
+    {"name":"vectorNetworkAnalyzerIp","desc":"网络分析仪地址","type":"str"},
+    {"name":"vectorNetworkAnalyzerPort","desc":"网络分析仪端口","type":"int"},
+    {"name":"VNAStateFile","desc":"网络分析仪状态文件","type":"str"},
+    {"name":"saRelAmpl","desc":"频谱仪线损补偿","type":"float"},
+	{"name":"continuesTagCount","desc":"连续满点次数","type":"int"},
+	{"name":"powerDividerCtrlCom","desc":"功分器工装板串口号","type":"str"}
+]

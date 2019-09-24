@@ -1,0 +1,13 @@
+{
+ "defaultSuite": "\u7ef4\u4fee\u4ea4\u6613\u6d4b\u8bd5\u5de5\u4f4d", 
+ "defaultProduct": "GS10 \u7ef4\u4fee\u6d4b\u8bd5", 
+ "autoLoginUsername": "super", 
+ "beepFreq": 2000, 
+ "gs10PlateDeviceCom": "com23", 
+ "maxLogItemNumber": 1000, 
+ "cableComsuption": 1.0, 
+ "defaultServerIp": "single", 
+ "workbay": "patch", 
+ "autoLoginPassword": "password", 
+ "PARAM_UI_FILENAME": "hhplt/productsuite/gs10cqpatch/config/paramui.json-gs10"
+}

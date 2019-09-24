@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testReport version="1.0" reportTime="2014-08-21T11:35:58" >
+	<testingProduct idCode="1234" productName="GS10 OBU" />
+	<testSuite version="1.0" testTime="2014-08-21T16:08:43"
+		workbay="A0001" testor="user" status="PASS" name="电池工位测试项">
+		<testItem status="PASS" name="电池开路电压">
+			<output name="输出值1">500</output>
+		</testItem>
+		<testItem status="PASS" name="电容开路电压">
+			<output name="输出值1">500</output>
+		</testItem>
+	</testSuite>
+	<testSuite version="1.0" testTime="2014-08-21T16:08:52"
+		workbay="A0001" testor="user" status="PASS" name="整机工位测试项">
+		<testItem status="PASS" name="电池电路电压测试">
+			<output name="输出值1">500</output>
+		</testItem>
+		<testItem status="PASS" name="太阳能电路电压测试">
+			<output name="输出值1">500</output>
+		</testItem>
+		<testItem status="PASS" name="电容电路电压测试">
+			<output name="输出值1">500</output>
+		</testItem>
+		<testItem status="PASS" name="交易测试">
+		</testItem>
+	</testSuite>
+</testReport>

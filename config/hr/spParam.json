@@ -1,0 +1,58 @@
+{
+  "hr.reader.power.low":33.9,
+  "hr.reader.power.high":35,
+
+
+  "hr.divider.port7.S11.low":-2.92,
+  "hr.divider.port7.S11.high":-2.56,
+
+  "hr.divider.port1.S22.low":-16.7,
+  "hr.divider.port1.S22.high":16.16,
+  "hr.divider.port6.S22.low":-16.7,
+  "hr.divider.port6.S22.high":16.16,
+  "hr.divider.port5.S22.low":-16.7,
+  "hr.divider.port5.S22.high":16.16,
+
+  "hr.divider.port4.S22.low":-16.63,
+  "hr.divider.port4.S22.high":16.24,
+  "hr.divider.port3.S22.low":-16.63,
+  "hr.divider.port3.S22.high":16.24,
+  "hr.divider.port2.S22.low":-16.63,
+  "hr.divider.port2.S22.high":16.24,
+
+  "hr.divider.port1.S21.low":-16.7,
+  "hr.divider.port1.S21.high":-16.16,
+  "hr.divider.port6.S21.low":-16.7,
+  "hr.divider.port6.S21.high":-16.16,
+  "hr.divider.port5.S21.low":-16.7,
+  "hr.divider.port5.S21.high":-16.16,
+
+  "hr.divider.port4.S21.low":-16.63,
+  "hr.divider.port4.S21.high":-16.24,
+  "hr.divider.port3.S21.low":-16.63,
+  "hr.divider.port3.S21.high":-16.24,
+  "hr.divider.port2.S21.low":-16.63,
+  "hr.divider.port2.S21.high":-16.24,
+
+
+  "hr.antenna.marker1.s.low":-10000000,
+  "hr.antenna.marker1.s.high":100000000,
+
+  "hr.antenna.marker2.s.low":-10000000,
+  "hr.antenna.marker2.s.high":100000000,
+
+  "hr.antenna.marker3.s.low":-10000000,
+  "hr.antenna.marker3.s.high":100000000,
+
+  "hr.antenna.marker4.s.low":-10000000,
+  "hr.antenna.marker4.s.high":100000000,
+
+  "hr.antenna.marker5.s.low":-10000000,
+  "hr.antenna.marker5.s.high":100000000,
+
+  "hr.antenna.marker6.s.low":-6.17,
+  "hr.antenna.marker6.s.high":-4.28,
+  "hr.antenna.marker6.freq.low":13.65,
+  "hr.antenna.marker6.freq.high":14.17
+
+}

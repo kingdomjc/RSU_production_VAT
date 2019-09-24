@@ -1,0 +1,17 @@
+[
+{"name":"gs15ReaderIp","desc":"阅读器地址","type":"str"},
+{"name":"gs15ReaderPort","desc":"阅读器端口","type":"int"},
+{"name":"boardUserTestLength","desc":"单板测试USER读写长度（字）","type":"int"},
+{"name":"beepFreq","desc":"提示蜂鸣器频率","type":"int"},
+{"name":"gs15epcLength","desc":"EPC长度（字）","type":"int"},
+{"name":"gs15userLength","desc":"USER区长度（字）","type":"int"},
+{"name":"gs15tidLength","desc":"TID区长度（字）","type":"int"},
+{"name":"gs15accessPassword","desc":"Access密码","type":"str"},
+{"name":"readerType","desc":"读写器型号","type":"str"},
+{"name":"amountPerBox","desc":"每小盒标签数","type":"int"},
+{"name":"localDataDirectory","desc":"本地记录\n为空表示不记录本地","type":"str"},
+{"name":"carvingCode","desc":"当前镭雕序列号","type":"str"},
+{"name":"carvingMachinePort","desc":"镭雕机数据服务端口","type":"int"},
+{"name":"localDbFile","desc":"本地数据库文件","type":"str"},
+{"name":"manufacturerId","desc":"供应商编号","type":"str"}
+]

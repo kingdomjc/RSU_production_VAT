@@ -1,0 +1,10 @@
+[
+{"name":"beepFreq","desc":"提示蜂鸣器频率","type":"int"},
+{"name":"autoLoginUsername","desc":"自动登录用户名","type":"str"},
+{"name":"autoLoginPassword","desc":"自动登录密码","type":"str"},
+{"name":"gs25SerialPort","desc":"GS25-UART测试串口号","type":"str"},
+{"name":"miReadCardId","desc":"MI卡卡号判定值","type":"str"},
+{"name":"initCrid","desc":"出场CRID值","type":"str"},
+{"name":"rsuInfo","desc":"RSU信息判定值","type":"str"},
+{"name":"tradePsamSlot","desc":"交易测试PSAM卡槽号","type":"int"}
+]

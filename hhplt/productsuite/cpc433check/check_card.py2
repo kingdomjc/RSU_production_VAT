@@ -1,0 +1,100 @@
+#encoding:utf-8
+u'''433卡检卡'''
+
+
+suiteName = u'''高速433卡自动检卡'''
+version = "1.0"
+failWeightSum = 10  #整体不通过权值，当失败权值和超过此，判定测试不通过
+
+from hhplt.parameters import SESSION,PARAM
+from hhplt.testengine.testcase import uiLog,superUiLog
+from hhplt.testengine.exceptions import TestItemFailException,AbortTestException
+from hhplt.deviceresource import askForResource
+from CheckerIOController import *
+from ctypes import *
+import os
+
+from GS25Device import GS25Device
+
+autoTrigger = CheckerAutoTrigger
+
+
+
+def __getIO():
+    return askForResource("CheckerIOController", CheckerIOController)
+
+def __getGs25():
+    return askForResource("gs25",GS25Device).gs25
+
+
+
+def setup(product):
+    SESSION["autoTrigger"].pause()
+    
+def finalFun(product):
+    try:
+        if not product.finishSmoothly:  #测试异常终止
+            __getIO().notifyTestSuiteError()
+        else:
+            if product.testResult:#测试通过
+                __getIO().notifyTestOK()
+            else:
+                __getIO().notifyTestNG()
+        time.sleep(1)
+        __getIO().notifyReady()
+    finally:
+        SESSION["autoTrigger"].resume()
+
+def T_01_findCard_A(product):
+    u"寻卡-寻卡读取CPC ID，判断电量高于门限值"
+    cpc_id = (c_byte*128)()
+    powerInfo = c_int(0)
+    flg = dll.GetCPCID_RFID(byref(cpc_id))
+    if flg == 0:raise TestItemFailException(failWeight=10, message=u"寻卡失败")
+    cardId = "".join("%.2x"%x for x in cpc_id[:4])
+    product.setTestingProductIdCode(cardId)
+    flg = dll.GetPowerInfo_RFID(byref(cpc_id),byref(powerInfo))
+    if flg == 0:raise TestItemFailException(failWeight=10, message=u"获取电量失败")
+    pow_value = 579 * 3.3 / powerInfo.value
+    res = {u"卡电量":pow_value,u"卡ID":cardId}
+    if pow_value < PARAM["powLow"]:
+        raise TestItemFailException(failWeight=10, message=u"获取电量值异常，值：%.2f"%pow_value,output=res)
+    return res
+    
+
+def T_02_psamValid_A(product):
+    u"PSAM密钥认证-PSAM密钥认证（暂时不测）"
+    pass
+
+def T_03_testEnterWake_A(product):
+    u"测试进入唤醒-测试CPC卡能够正常进入唤醒"
+    cpc_id = (c_byte*128)()
+    mod = c_int()
+    flg = dll.GetCPCID_RFID(byref(cpc_id))
+    if flg == 0:raise TestItemFailException(failWeight=10, message=u"寻卡失败")
+    flg = dll.Set433CardMode_RFID(byref(cpc_id),1)
+    if flg == 0:raise TestItemFailException(failWeight=10, message=u"卡唤醒失败")
+    flg =  dll.Get433CardMode_RFID(byref(cpc_id), byref(mod));
+    if flg == 0 or mod.value != 1:
+        raise TestItemFailException(failWeight=10, message=u"卡唤醒失败")
+    return
+    
+def T_04_entryPathQuery_A(product):
+    u"入口路径查询测试-写入路口路径，测试查询（暂时不测）"
+    pass
+    
+def T_05_testExitSleep_A(product):
+    u"测试退出休眠-测试CPC卡能够正常退出休眠"
+    cpc_id = (c_byte*128)()
+    mod = c_int()
+    flg = dll.GetCPCID_RFID(byref(cpc_id))
+    if flg == 0:raise TestItemFailException(failWeight=10, message=u"寻卡失败")
+    flg = dll.Set433CardMode_RFID(byref(cpc_id),0)
+    if flg == 0:raise TestItemFailException(failWeight=10, message=u"退出休眠失败")
+    flg = dll.Get433CardMode_RFID(byref(cpc_id),byref(mod))
+    if flg == 0 or mod.value != 0:
+        raise TestItemFailException(failWeight=10, message=u"退出休眠失败")
+    return
+    
+    
+    

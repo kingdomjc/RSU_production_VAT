@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>875</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>部件</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="boardSelect">
+       <item>
+        <property name="text">
+         <string>阅读器板</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>功分器板</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>托盘天线</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>玩</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="0" column="2" colspan="2">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>按条码范围查询</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4" colspan="3">
+      <widget class="QLineEdit" name="startBarCode"/>
+     </item>
+     <item row="1" column="2" colspan="2">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>按测试时间查询</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4" colspan="3">
+      <widget class="QDateTimeEdit" name="startTestTime">
+       <property name="displayFormat">
+        <string>yyyy-MM-dd HH:mm:ss</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="7">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>至</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="8" colspan="2">
+      <widget class="QDateTimeEdit" name="endTestTime">
+       <property name="displayFormat">
+        <string>yyyy-MM-dd HH:mm:ss</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="10">
+      <widget class="QPushButton" name="queryByTimeBtn">
+       <property name="text">
+        <string>按时间查询</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="10">
+      <widget class="QPushButton" name="queryBtn">
+       <property name="text">
+        <string>按条码查询</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="8" colspan="2">
+      <widget class="QLineEdit" name="endBarCode"/>
+     </item>
+     <item row="0" column="7">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>至</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="exportExcelBtn">
+       <property name="text">
+        <string>导出Excel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="resTable">
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::ExtendedSelection</enum>
+     </property>
+     <attribute name="horizontalHeaderStretchLastSection">
+      <bool>false</bool>
+     </attribute>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

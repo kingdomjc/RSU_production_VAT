@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testReport version="1.0" reportTime="2014-08-21T11:35:58"> 
+	<testingProduct idCode="1234" productName="GS10 OBU" />
+	<testSuite version="1.0" testTime="2014-08-21T16:08:10"
+		workbay="A0001" testor="user" status="PASS" name="镭雕工位测试项">
+		<testItem status="PASS" name="读取MAC地址，扫描镭雕条码">
+			<output name="输出值7">500</output>
+		</testItem>
+		<testItem status="PASS" name="镭雕">
+			<output name="输出值8">500</output>
+		</testItem>
+	</testSuite>
+	<testSuite version="1.0" testTime="2014-08-21T16:08:20"
+		workbay="A0001" testor="user" status="PASS" name="单板射频工位测试项-传导方式">
+		<testItem status="PASS" name="读高频卡测试">
+			<output name="输出值10">500</output>
+		</testItem>
+		<testItem status="PASS" name="唤醒灵敏度测试">
+			<output name="输出值11">500</output>
+		</testItem>
+		<testItem status="PASS" name="接收灵敏度测试">
+			<output name="输出值12">500</output>
+		</testItem>
+		<testItem status="PASS" name="发射功率测试">
+			<output name="输出值13">500</output>
+		</testItem>
+		<testItem status="PASS" name="静态电流测试">
+			<output name="输出值14">500</output>
+		</testItem>
+		<testItem status="PASS" name="深度静态电流测试">
+			<output name="输出值15">500</output>
+		</testItem>
+		<testItem status="PASS" name="正式版本下载 ">
+			<output name="输出值16">500</output>
+		</testItem>
+	</testSuite>
+	<testSuite version="1.0" testTime="2014-08-21T16:08:29"
+		workbay="A0001" testor="user" status="PASS" name="单板数字工位测试项">
+		<testItem status="PASS" name="出厂信息写入">
+		</testItem>
+		<testItem status="PASS" name="测试版本下载">
+		</testItem>
+		<testItem status="PASS" name="RS232测试">
+			<output name="输出值9">500</output>
+		</testItem>
+		<testItem status="PASS" name="复位测试">
+			<output name="输出值1">500</output>
+		</testItem>
+		<testItem status="PASS" name="电容电路电压测试">
+			<output name="输出值31">500</output>
+		</testItem>
+		<testItem status="PASS" name="太阳能电路电压测试">
+			<output name="输出值21">500</output>
+		</testItem>
+		<testItem status="PASS" name="电池电路电压测试">
+			<output name="输出值f1">500</output>
+		</testItem>
+		<testItem status="PASS" name="ESAM测试">
+			<output name="sadsf">500</output>
+		</testItem>
+		<testItem status="PASS" name="声光指示测试">
+			<output name="w">500</output>
+		</testItem>
+		<testItem status="PASS" name="OLED屏幕测试">
+		</testItem>
+		<testItem status="PASS" name="显示方向控制键测试">
+		</testItem>
+		<testItem status="PASS" name="防拆下电测试">
+		</testItem>
+	</testSuite>
+</testReport>

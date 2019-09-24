@@ -1,0 +1,14 @@
+{
+ "issueCom": "com3", 
+ "defaultSuite": "\u5355\u677f\u6570\u5b57\u6d4b\u8bd5", 
+ "defaultProduct": "GS11 OBU", 
+ "autoLoginUsername": "super", 
+ "beepFreq": 2000, 
+ "maxLogItemNumber": 1000, 
+ "defaultServerIp": "single", 
+ "ioBoardCom": "com28", 
+ "powLow": 2.7, 
+ "workbay": "\u5355\u673a\u5de5\u4f4d", 
+ "autoLoginPassword": "password", 
+ "PARAM_UI_FILENAME": "config/cpc433/paramui.json-cpc433"
+}

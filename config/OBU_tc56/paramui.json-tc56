@@ -1,0 +1,4 @@
+[
+	{"name":"productSlots","desc":"槽位列表(英文逗号隔开)","type":"str"},
+	{"name":"productIps","desc":"槽位ip地址(英文逗号隔开)","type":"str"}
+]

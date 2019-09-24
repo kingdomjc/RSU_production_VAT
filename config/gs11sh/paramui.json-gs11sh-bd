@@ -1,0 +1,13 @@
+[
+	{"name":"ioBoardCom","desc":"IO板串口号","type":"str"},
+	{"name":"boardDigitalFixtureCom","desc":"数字工装板串口号","type":"str"},
+	{"name":"soundLightDetectorCom","desc":"声光检测板串口号","type":"str"},
+	{"name":"redLedSensorThreshold","desc":"红色LED传感器检测阈值组","type":"str"},
+	{"name":"greenLedSensorThreshold","desc":"绿色LED传感器检测阈值组","type":"str"},
+	{"name":"integratedVatBoardIp","desc":"集成工装板IP地址","type":"str"},
+	{"name":"integratedVatBoardPort","desc":"集成工装板端口号","type":"int"},
+
+	{"name":"macPrefix","desc":"MAC地址前缀","type":"str"}
+
+
+]

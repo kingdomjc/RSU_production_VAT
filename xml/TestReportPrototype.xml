@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="TestReportSchema.xsd" reportTime="2014-01-20T16:30:00" version="1.0">
+	<testingProduct productName="GS10" idCode="F4000000" />
+	<testSuite status="PASS" name="单板数字测试" testor="张三" workbay="A0001" testTime="2014-01-20T16:30:00" version="1.0">
+	</testSuite>
+</testReport>

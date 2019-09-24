@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="767011d4-ecbd-4b74-9ff1-00f3a43322b0" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/HHPLT$rtt.coverage" NAME="rtt Coverage Results" MODIFIED="1564033336765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hhplt/productsuite/RD52" />
+    <SUITE FILE_PATH="coverage/HHPLT$main.coverage" NAME="main Coverage Results" MODIFIED="1565768694466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD52/RS52AllTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="293" column="12" selection-start-line="293" selection-start-column="12" selection-end-line="293" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD52/RD52Aging.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1150">
+              <caret line="63" column="82" selection-start-line="63" selection-start-column="82" selection-end-line="63" selection-end-column="82" />
+              <folding>
+                <element signature="e#33#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD50C/auto_test1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5277">
+              <caret line="133" column="30" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD50C/lightBoard_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1840">
+              <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD52/RSDB5AutoTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="294" column="15" selection-start-line="294" selection-start-column="15" selection-end-line="294" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;rd50cProductId&quot;</find>
+      <find>NetTwoIp</find>
+      <find>HrDataQueryDlg</find>
+      <find>setTestingSuiteBarCode</find>
+      <find>write_pll_reg</find>
+      <find>MACProxy</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/hhplt/main.py" />
+        <option value="E:/RSU全部/RSU_0719/HHPLT/hhplt/main.py" />
+        <option value="$PROJECT_DIR$/hhplt/productsuite/RD52/downloadEPLD.py" />
+        <option value="$PROJECT_DIR$/config/RD50C/paramui.json-rd50c" />
+        <option value="$PROJECT_DIR$/config/RD50C/config.json-rd50c" />
+        <option value="$PROJECT_DIR$/hhplt/productsuite/RD50C/try_test1.py" />
+        <option value="$PROJECT_DIR$/hhplt/productsuite/RD52/rtt.py" />
+        <option value="$PROJECT_DIR$/hhplt/productsuite/RD50C/manual_test.py" />
+        <option value="$PROJECT_DIR$/hhplt/productsuite/RD52/RSDB5ManualTest.py" />
+        <option value="$PROJECT_DIR$/hhplt/productsuite/RD52/RSRB4SendRecvTest.py" />
+        <option value="$PROJECT_DIR$/hhplt/deviceresource/RD50CDownloadNetMyd.py" />
+        <option value="$PROJECT_DIR$/hhplt/deviceresource/RD50CNetSendRecvMyd.py" />
+        <option value="$PROJECT_DIR$/config/RD52/paramui.json-rd52" />
+        <option value="$PROJECT_DIR$/config/RD52/config.json-rd52" />
+        <option value="$PROJECT_DIR$/hhplt/productsuite/RD52/__init__.py" />
+        <option value="$PROJECT_DIR$/hhplt/productsuite/mockproduct/mock_suite.py" />
+        <option value="$PROJECT_DIR$/hhplt/productsuite/RD50C/__init__.py" />
+        <option value="$PROJECT_DIR$/hhplt/productsuite/RD52/RFTest.py" />
+        <option value="$PROJECT_DIR$/hhplt/productsuite/RD52/RS52AllTest.py" />
+        <option value="$PROJECT_DIR$/hhplt/productsuite/RD50C/RD50CAging.py" />
+        <option value="$PROJECT_DIR$/hhplt/deviceresource/RD50CAutoTestMyd.py" />
+        <option value="$PROJECT_DIR$/hhplt/productsuite/RD50C/lightBoard_test.py" />
+        <option value="$PROJECT_DIR$/hhplt/productsuite/RD52/RSDB5AutoTest.py" />
+        <option value="$PROJECT_DIR$/hhplt/productsuite/RD50C/auto_test1.py" />
+        <option value="$PROJECT_DIR$/hhplt/productsuite/RD52/RD52Aging.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-58" />
+    <option name="y" value="255" />
+    <option name="width" value="1715" />
+    <option name="height" value="1045" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HHPLT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HHPLT" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HHPLT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HHPLT" type="462c0819:PsiDirectoryNode" />
+              <item name="hhplt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HHPLT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HHPLT" type="462c0819:PsiDirectoryNode" />
+              <item name="hhplt" type="462c0819:PsiDirectoryNode" />
+              <item name="productsuite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HHPLT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HHPLT" type="462c0819:PsiDirectoryNode" />
+              <item name="hhplt" type="462c0819:PsiDirectoryNode" />
+              <item name="productsuite" type="462c0819:PsiDirectoryNode" />
+              <item name="RD50C" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HHPLT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HHPLT" type="462c0819:PsiDirectoryNode" />
+              <item name="hhplt" type="462c0819:PsiDirectoryNode" />
+              <item name="productsuite" type="462c0819:PsiDirectoryNode" />
+              <item name="RD52" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HHPLT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HHPLT" type="462c0819:PsiDirectoryNode" />
+              <item name="hhplt" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../VAT_writeMac/HHPLT" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\Project\RSU完结版\HHPLT_根基\HHPLT\hhplt\productsuite\RD52" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HHPLT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hhplt/main.py" />
+      <option name="PARAMETERS" value="-f config/RD52/config.json-rd52 -w 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rtt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HHPLT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Work\Project\wirteMac_Demo\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hhplt/productsuite/RD52" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hhplt/productsuite/RD52/rtt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.rtt" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.rtt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="767011d4-ecbd-4b74-9ff1-00f3a43322b0" name="Default Changelist" comment="" />
+      <created>1563428048953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563428048953</updated>
+      <workItem from="1563428050661" duration="12548000" />
+      <workItem from="1563445571313" duration="4671000" />
+      <workItem from="1563500488408" duration="1397000" />
+      <workItem from="1563503446100" duration="812000" />
+      <workItem from="1563519260073" duration="52000" />
+      <workItem from="1563523596520" duration="5951000" />
+      <workItem from="1563550774114" duration="635000" />
+      <workItem from="1563565176013" duration="2712000" />
+      <workItem from="1563613851375" duration="6655000" />
+      <workItem from="1563758681066" duration="653000" />
+      <workItem from="1563766489622" duration="322000" />
+      <workItem from="1563768583972" duration="1226000" />
+      <workItem from="1563775663729" duration="20293000" />
+      <workItem from="1563868398040" duration="7020000" />
+      <workItem from="1563945893170" duration="6075000" />
+      <workItem from="1563958362506" duration="8274000" />
+      <workItem from="1564016935991" duration="5861000" />
+      <workItem from="1564109202043" duration="12633000" />
+      <workItem from="1564360557926" duration="7531000" />
+      <workItem from="1564381360900" duration="479000" />
+      <workItem from="1564386437086" duration="11641000" />
+      <workItem from="1564448451708" duration="14395000" />
+      <workItem from="1564540937577" duration="780000" />
+      <workItem from="1564628303550" duration="10021000" />
+      <workItem from="1564651494585" duration="2306000" />
+      <workItem from="1564715818120" duration="3271000" />
+      <workItem from="1564798450787" duration="1064000" />
+      <workItem from="1564817016756" duration="1570000" />
+      <workItem from="1564971083055" duration="2618000" />
+      <workItem from="1565054084246" duration="8625000" />
+      <workItem from="1565068669539" duration="3761000" />
+      <workItem from="1565159957356" duration="2600000" />
+      <workItem from="1565227382140" duration="568000" />
+      <workItem from="1565243558258" duration="2300000" />
+      <workItem from="1565249091483" duration="1693000" />
+      <workItem from="1565312713753" duration="1919000" />
+      <workItem from="1565576451981" duration="2192000" />
+      <workItem from="1565761102334" duration="1228000" />
+      <workItem from="1566179911270" duration="1688000" />
+      <workItem from="1566186495504" duration="4264000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="184304000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19638069" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3649222" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2935657" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36775106" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/Python27/Lib/site-packages/serial/serialjava.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#91#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/PyQt4/uic/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="224" column="49" selection-start-line="224" selection-start-column="49" selection-end-line="224" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD50C/downloadEPLD.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/RSU全部/RSU_0719/HHPLT/hhplt/main.py" />
+    <entry file="file://$PROJECT_DIR$/hhplt/testengine/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD52/downloadEPLD.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/RD50C/paramui.json-rd50c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/HrShelve/HrDataQueryDlg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD50C/try_test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2783">
+          <caret line="124" selection-start-line="124" selection-end-line="135" selection-end-column="65" />
+          <folding>
+            <element signature="e#111#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python27/site-packages/visa.py" />
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD52/rtt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/RD50C/config.json-rd50c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD50C/manual_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1439">
+          <caret line="106" column="79" lean-forward="true" selection-start-line="106" selection-start-column="79" selection-end-line="106" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD52/RSDB5ManualTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="92" column="15" lean-forward="true" selection-start-line="92" selection-start-column="15" selection-end-line="92" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/testengine/testcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2047">
+          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD52/RSRB4SendRecvTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-884">
+          <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/mockproduct/mock_suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="42" selection-start-line="42" selection-end-line="43" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD52/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="58" />
+          <folding>
+            <element signature="e#29#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD50C/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD52/RFTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3519">
+          <caret line="159" column="8" selection-start-line="159" selection-start-column="8" selection-end-line="159" selection-end-column="8" />
+          <folding>
+            <element signature="e#111#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/RD52/paramui.json-rd52">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/RD52/config.json-rd52">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/testengine/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/deviceresource/RD50CNetSendRecvMyd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="78" column="47" lean-forward="true" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/deviceresource/RD50CDownloadNetMyd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/deviceresource/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/deviceresource/RD52SingleTone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/deviceresource/RD50CAutoTestMyd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD50C/RD50CAging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-903">
+          <caret line="87" column="38" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
+          <folding>
+            <element signature="e#34#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD52/RD52Aging.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="63" column="82" selection-start-line="63" selection-start-column="82" selection-end-line="63" selection-end-column="82" />
+          <folding>
+            <element signature="e#33#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD50C/lightBoard_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1840">
+          <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/aass.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD52/RSDB5AutoTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="294" column="15" selection-start-line="294" selection-start-column="15" selection-end-line="294" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD52/RS52AllTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="293" column="12" selection-start-line="293" selection-start-column="12" selection-end-line="293" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhplt/productsuite/RD50C/auto_test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5277">
+          <caret line="133" column="30" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

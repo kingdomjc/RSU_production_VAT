@@ -1,0 +1,5 @@
+[
+	{"name":"powLow","desc":"电量下限","type":"float"},
+	{"name":"ioBoardCom","desc":"IO板卡串口号","type":"str"},
+	{"name":"issueCom","desc":"读卡器串口号，为空表示使用USB口","type":"str"}
+]

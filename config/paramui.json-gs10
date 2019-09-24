@@ -1,0 +1,13 @@
+[
+{"name":"gs10PlateDeviceCom","desc":"工装板串口号","type":"str"},
+{"name":"barScannerType","desc":"扫码枪型号","type":"str"},
+{"name":"barScannerCom","desc":"扫码枪头虚拟串口号","type":"str"},
+{"name":"ioBoardType","desc":"工控IO板型号","type":"str"},
+{"name":"ioBoardCom","desc":"工控IO板串口号","type":"str"},
+{"name":"cableComsuption","desc":"线损","type":"float"},
+{"name":"beepFreq","desc":"提示蜂鸣器频率","type":"int"},
+{"name":"autoLoginUsername","desc":"自动登录用户名","type":"str"},
+{"name":"autoLoginPassword","desc":"自动登录密码","type":"str"},
+{"name":"openCloseStep","desc":"夹具开合步骤数","type":"int"}
+
+]

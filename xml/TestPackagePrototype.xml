@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="TestReportSchema.xsd" reportTime="2014-01-20T16:30:00" version="1.0">
+	<testingProduct productName="GS10小盒(10个)包装" idCode="1230201221" />
+	<testSuite status="PASS" name="产品包装" testor="张三" workbay="A0001" testTime="2014-01-20T16:30:00" version="1.0">
+		<testItem status="PASS" name="位置1包装">
+			<output name="镭雕条码">12345678</output>
+		</testItem>
+	</testSuite>
+	<bindingCode codeName="位置1条码"></bindingCode>	
+	<bindingCode codeName="位置2条码"></bindingCode>	
+	
+	
+</testReport>

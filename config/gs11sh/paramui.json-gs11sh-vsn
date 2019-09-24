@@ -1,0 +1,13 @@
+[
+	{"name":"ioBoardCom","desc":"工装板串口号","type":"str"},
+	{"name":"linkId-slot1","desc":"槽位[1]NulinkId","type":"str"},
+	{"name":"linkId-slot2","desc":"槽位[2]NulinkId","type":"str"},
+	{"name":"linkId-slot3","desc":"槽位[3]NulinkId","type":"str"},
+	{"name":"linkId-slot4","desc":"槽位[4]NulinkId","type":"str"},
+	{"name":"linkId-slot5","desc":"槽位[5]NulinkId","type":"str"},
+	{"name":"linkId-slot6","desc":"槽位[6]NulinkId","type":"str"},
+	{"name":"nulinkCfg0Value","desc":"CFG0值","type":"str"},
+	{"name":"nulinkCfg1Value","desc":"CFG0值","type":"str"},
+	{"name":"defaultBootFile","desc":"默认Boot版本文件名","type":"str"},
+	{"name":"defaultVatVersionFile","desc":"默认VAT版本文件名","type":"str"}
+]

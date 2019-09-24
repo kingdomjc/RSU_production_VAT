@@ -1,0 +1,14 @@
+{
+ "defaultSuite": "\u6574\u673a\u6d4b\u8bd5", 
+ "defaultProduct": "GS11 OBU", 
+ "macPrefix": "24", 
+ "autoLoginUsername": "super", 
+ "beepFreq": 2000, 
+ "gs10PlateDeviceCom": "com17", 
+ "maxLogItemNumber": 1000, 
+ "cableComsuption": 1.0, 
+ "defaultServerIp": "single", 
+ "workbay": "patch", 
+ "autoLoginPassword": "000000", 
+ "PARAM_UI_FILENAME": "config/gs11sh/paramui.json-gs11sh-ov"
+}

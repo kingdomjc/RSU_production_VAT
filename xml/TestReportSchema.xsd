@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="testReport" type="TestReport"></xs:element>
+    
+    <xs:complexType name="TestReport">
+
+    	<xs:sequence>
+    		<xs:element name="testingProduct" type="testingProductType"
+    			maxOccurs="1" minOccurs="1">
+    		</xs:element>
+    		<xs:element name="testSuite" type="testSuiteType"
+    			maxOccurs="unbounded" minOccurs="1">
+    		</xs:element>
+    		<xs:element name="bindingCode" type="BindingCodeType" maxOccurs="unbounded" minOccurs="0"></xs:element>
+    	</xs:sequence>
+    	<xs:attribute name="reportTime" type="xs:dateTime"></xs:attribute>
+
+    	<xs:attribute name="version" type="xs:string"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="testingProductType">
+    	<xs:attribute name="productName" type="xs:string"></xs:attribute>
+    	<xs:attribute name="idCode" type="xs:string"></xs:attribute>
+    </xs:complexType>
+
+    <xs:simpleType name="statusEnum">
+    	<xs:restriction base="xs:string">
+    		<xs:enumeration value="PASS"></xs:enumeration>
+    		<xs:enumeration value="FAIL"></xs:enumeration>
+    		<xs:enumeration value="UNTESTED"></xs:enumeration>
+    		<xs:enumeration value="TESTING"></xs:enumeration>
+    	</xs:restriction>
+    </xs:simpleType>
+
+
+
+    <xs:complexType name="testSuiteType">
+    	<xs:sequence>
+    		<xs:element name="testItem" type="testItemType"
+    			maxOccurs="unbounded" minOccurs="0">
+    		</xs:element>
+    	</xs:sequence>
+    	<xs:attribute name="name" type="xs:string" use="required"></xs:attribute>
+    	<xs:attribute name="status" use="required" type="statusEnum">
+
+    	</xs:attribute>
+    	<xs:attribute name="testor" type="xs:string" use="optional"></xs:attribute>
+    	<xs:attribute name="workbay" type="xs:string" use="optional"></xs:attribute>
+    	<xs:attribute name="testTime" type="xs:dateTime"
+    		use="required">
+    	</xs:attribute>
+    	<xs:attribute name="version" type="xs:string" use="required"></xs:attribute>
+    	<xs:attribute name="barCode" type="xs:string" use="optional"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="testItemType">
+    	<xs:sequence>
+    		<xs:element name="output" type="testItemOutput"
+    			maxOccurs="unbounded" minOccurs="0">
+    		</xs:element>
+    		<xs:element name="message" type="xs:string" maxOccurs="1" minOccurs="0"></xs:element>
+    	</xs:sequence>
+    	<xs:attribute name="name" type="xs:string" use="required"></xs:attribute>
+    	<xs:attribute name="status" type="statusEnum" use="required"></xs:attribute>
+    </xs:complexType>
+
+	<xs:complexType name="testItemOutput">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="name" type="xs:string" use="required"></xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:complexType name="BindingCodeType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="codeName" type="xs:string"></xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:schema>

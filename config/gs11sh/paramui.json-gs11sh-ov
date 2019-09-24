@@ -1,0 +1,5 @@
+[
+    {"name":"gs10PlateDeviceCom","desc":"工装板串口号","type":"str"},
+    {"name":"cableComsuption","desc":"线损","type":"float"}
+
+]

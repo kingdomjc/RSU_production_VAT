@@ -1,0 +1,28 @@
+[
+	{"name":"integratedVatBoardIp","desc":"集成工装板IP地址","type":"str"},
+	{"name":"integratedVatBoardPort","desc":"集成工装板端口号","type":"int"},
+	{"name":"downloadBoardSerialPort","desc":"版本下载控制板串口号","type":"str"},
+	{"name":"macPrefix","desc":"MAC地址前缀","type":"str"},
+
+	{"name":"linkId-slot1","desc":"槽位[1]NulinkId","type":"str"},
+	{"name":"linkId-slot2","desc":"槽位[2]NulinkId","type":"str"},
+	{"name":"linkId-slot3","desc":"槽位[3]NulinkId","type":"str"},
+	{"name":"linkId-slot4","desc":"槽位[4]NulinkId","type":"str"},
+	{"name":"linkId-slot5","desc":"槽位[5]NulinkId","type":"str"},
+	{"name":"linkId-slot6","desc":"槽位[6]NulinkId","type":"str"},
+
+	{"name":"obuIp-slot1","desc":"槽位[1]OBU地址","type":"str"},
+	{"name":"obuIp-slot2","desc":"槽位[2]OBU地址","type":"str"},
+	{"name":"obuIp-slot3","desc":"槽位[3]OBU地址","type":"str"},
+	{"name":"obuIp-slot4","desc":"槽位[4]OBU地址","type":"str"},
+	{"name":"obuIp-slot5","desc":"槽位[5]OBU地址","type":"str"},
+	{"name":"obuIp-slot6","desc":"槽位[6]OBU地址","type":"str"},
+
+	{"name":"nulinkCfg0Value","desc":"CFG0值","type":"str"},
+	{"name":"nulinkCfg1Value","desc":"CFG0值","type":"str"},
+	{"name":"defaultBootFile","desc":"默认Boot版本文件名","type":"str"},
+	{"name":"defaultVatVersionFile","desc":"默认VAT版本文件名","type":"str"},
+	{"name":"clapOperate","desc":"夹具开合控制板，I-工装板，V-下载板","type":"str"},
+	{"name":"currentLimit","desc":"电流限制（毫安）","type":"int"}
+
+]

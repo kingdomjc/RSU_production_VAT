@@ -1,0 +1,16 @@
+[
+    {"name":"defaultCOMPort","desc":"下载app串口","type":"str"},
+    {"name":"macName","desc":"服务器MAC名称","type":"str"},
+    {"name":"macMax","desc":"最大分配MAC","type":"str"},
+    {"name":"AllCodeFirst","desc":"整机条码开头","type":"str"},
+    {"name":"localIP","desc":"本地IP","type":"str"},
+    {"name":"RSDB0CodeFirst","desc":"RSDB0条码开头","type":"str"},
+    {"name":"defaultNetOneIp","desc":"网口1","type":"str"},
+    {"name":"serialPort","desc":"测试串口","type":"str"},
+    {"name":"PCIEIp","desc":"PCIEIP地址","type":"str"},
+    {"name":"writeIP","desc":"写入网口1的IP","type":"str"},
+    {"name":"writeIP2","desc":"写入网口2的IP","type":"str"},
+    {"name":"writeMask","desc":"写入子网掩码","type":"str"},
+    {"name":"writeGateway","desc":"写入网口1网关","type":"str"},
+    {"name":"writeGateway2","desc":"写入网口2网关","type":"str"}
+]

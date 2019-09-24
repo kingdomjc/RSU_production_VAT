@@ -1,0 +1,616 @@
+Fri, 09 Aug 2019 09:05:38 : INFO 单机登录，即将测试[RD52_RSU]产品的[RSDB5单板功能测试工位]
+Fri, 09 Aug 2019 09:05:47 : INFO 开始测试产品[RD52_RSU]的[RSDB5单板功能测试工位](维修测试)
+Fri, 09 Aug 2019 09:05:49 : INFO Opening serial port u'com4'
+Fri, 09 Aug 2019 09:05:51 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 09:05:51 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 09:05:51 : INFO command:shhtj,response:U-Boot 2011.03-00003-g38fc14f-dirty (Feb 06 2017 - 16:29:59) BSP-UBOOT-01.00.00
+Fri, 09 Aug 2019 09:05:51 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 09:05:51 : INFO command:shhtj,response:Reset Status:
+Fri, 09 Aug 2019 09:05:51 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 09:05:51 : INFO command:shhtj,response:CPU:   e300c3, MPC8306, Rev: 1.1 at 266.667 MHz, CSB: 133.333 MHz
+Fri, 09 Aug 2019 09:05:51 : INFO command:shhtj,response:DRAM:  64 MiB (DDR2, 64-bit, ECC off, 266.667 MHz)
+Fri, 09 Aug 2019 09:05:52 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 09:05:52 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 09:05:52 : INFO command:shhtj,response:U-Boot 2011.03-00003-g38fc14f-dirty (Feb 06 2017 - 16:29:59) BSP-UBOOT-01.00.00
+Fri, 09 Aug 2019 09:05:52 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 09:05:52 : INFO command:shhtj,response:Reset Status:
+Fri, 09 Aug 2019 09:05:52 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 09:05:52 : INFO command:shhtj,response:CPU:   e300c3, MPC8306, Rev: 1.1 at 266.667 MHz, CSB: 133.333 MHz
+Fri, 09 Aug 2019 09:05:52 : INFO command:shhtj,response:DRAM:  64 MiB (DDR2, 64-bit, ECC off, 266.667 MHz)
+Fri, 09 Aug 2019 09:05:52 : INFO command:shhtj,response:Flash: 64 MiB
+Fri, 09 Aug 2019 09:05:52 : INFO command:shhtj,response:QE: uploading microcode is OK!
+Fri, 09 Aug 2019 09:05:52 : INFO command:shhtj,response:Using default environment
+Fri, 09 Aug 2019 09:05:52 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 09:05:52 : INFO command:shhtj,response:In:    serial
+Fri, 09 Aug 2019 09:05:52 : INFO command:shhtj,response:Out:   serial
+Fri, 09 Aug 2019 09:05:52 : INFO command:shhtj,response:Err:   serial
+Fri, 09 Aug 2019 09:05:52 : INFO command:shhtj,response:Net:   UEC0, UEC1
+Fri, 09 Aug 2019 09:05:53 : INFO command:shhtj,response:before download version, you should prepare tftp server
+Fri, 09 Aug 2019 09:05:53 : INFO command:shhtj,response:download version steps:
+Fri, 09 Aug 2019 09:05:53 : INFO command:shhtj,response:1. setenv ipaddr 192.168.1.210
+Fri, 09 Aug 2019 09:05:53 : INFO command:shhtj,response:2. setenv serverip  192.168.1.200
+Fri, 09 Aug 2019 09:05:53 : INFO command:shhtj,response:3. download  #download appversion and sysversion
+Fri, 09 Aug 2019 09:05:53 : INFO command:shhtj,response:dlsys  #download sysversion
+Fri, 09 Aug 2019 09:05:53 : INFO command:shhtj,response:dlapp #download appversion
+Fri, 09 Aug 2019 09:05:53 : INFO command:shhtj,response:dlboot #download boot
+Fri, 09 Aug 2019 09:05:53 : INFO command:shhtj,response:4. reset
+Fri, 09 Aug 2019 09:05:54 : INFO command:download,response:setenv ipaddr 192.168.1.254
+Fri, 09 Aug 2019 09:05:54 : INFO command:download,response:=> setenv serverip 192.168.1.252
+Fri, 09 Aug 2019 09:05:54 : INFO command:download,response:=> download
+Fri, 09 Aug 2019 09:05:54 : INFO command:download,response:UEC: PHY is Fixed PHY (ffffffff)
+Fri, 09 Aug 2019 09:05:54 : INFO command:download,response:Waiting for PHY auto negotiation to complete done
+Fri, 09 Aug 2019 09:05:56 : INFO command:download,response:UEC0: Full Duplex
+Fri, 09 Aug 2019 09:05:56 : INFO command:download,response:UEC0: Speed 100BT
+Fri, 09 Aug 2019 09:05:56 : INFO command:download,response:UEC0: Link is up
+Fri, 09 Aug 2019 09:05:56 : INFO command:download,response:Using UEC0 device
+Fri, 09 Aug 2019 09:05:56 : INFO command:download,response:TFTP from server 192.168.1.252; our IP address is 192.168.1.254
+Fri, 09 Aug 2019 09:05:56 : INFO command:download,response:Filename 'sysversion'.
+Fri, 09 Aug 2019 09:05:56 : INFO command:download,response:Load address: 0x500000
+Fri, 09 Aug 2019 09:05:56 : INFO command:download,response:Loading: *#################################################################
+Fri, 09 Aug 2019 09:05:56 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:05:57 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:05:57 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:05:57 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:05:57 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:05:57 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:05:58 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:05:58 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:05:58 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:05:58 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:05:58 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:05:58 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:05:59 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:05:59 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:05:59 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:05:59 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:05:59 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:06:00 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:06:00 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:06:00 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:06:00 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:06:00 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:06:01 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:06:01 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:06:01 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:06:01 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:06:01 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:06:02 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:06:02 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:06:02 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:06:02 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:06:02 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 09:06:02 : INFO command:download,response:###############
+Fri, 09 Aug 2019 09:06:02 : INFO command:download,response:done
+Fri, 09 Aug 2019 09:06:02 : INFO command:download,response:Bytes transferred = 11057378 (a8b8e2 hex)
+Fri, 09 Aug 2019 09:06:02 : INFO command:download,response:vernum = 2.00.00 ls=1888725 rs=9155341 ds =12288
+Fri, 09 Aug 2019 09:06:02 : INFO command:download,response:Un-Protect Flash Bank # 1
+Fri, 09 Aug 2019 09:06:02 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 09:06:02 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 09:06:02 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 09:06:02 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 09:06:02 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 09:06:02 : INFO command:download,response:............ done
+Fri, 09 Aug 2019 09:06:02 : INFO command:download,response:
+Fri, 09 Aug 2019 09:06:09 : INFO command:download,response:....................... done
+Fri, 09 Aug 2019 09:06:09 : INFO command:download,response:Erased 23 sectors
+Fri, 09 Aug 2019 09:06:11 : INFO command:download,response:Copy to Flash... done
+Fri, 09 Aug 2019 09:06:11 : INFO command:download,response:
+Fri, 09 Aug 2019 09:06:33 : INFO command:download,response:................................................................................ done
+Fri, 09 Aug 2019 09:06:33 : INFO command:download,response:Erased 80 sectors
+Fri, 09 Aug 2019 09:06:38 : INFO command:download,response:Copy to Flash...
+Fri, 09 Aug 2019 09:06:41 : INFO command:download,response:done
+Fri, 09 Aug 2019 09:06:41 : INFO command:download,response:
+Fri, 09 Aug 2019 09:06:42 : INFO command:download,response:. done
+Fri, 09 Aug 2019 09:06:42 : INFO command:download,response:Erased 1 sectors
+Fri, 09 Aug 2019 09:06:42 : INFO command:download,response:Copy to Flash... done
+Fri, 09 Aug 2019 09:06:42 : INFO command:download,response:
+Fri, 09 Aug 2019 09:06:48 : INFO command:download,response:....................... done
+Fri, 09 Aug 2019 09:06:48 : INFO command:download,response:Erased 23 sectors
+Fri, 09 Aug 2019 09:06:50 : INFO command:download,response:Copy to Flash... done
+Fri, 09 Aug 2019 09:06:50 : INFO command:download,response:
+Fri, 09 Aug 2019 09:07:12 : INFO command:download,response:................................................................................ done
+Fri, 09 Aug 2019 09:07:12 : INFO command:download,response:Erased 80 sectors
+Fri, 09 Aug 2019 09:07:17 : INFO command:download,response:Copy to Flash...
+Fri, 09 Aug 2019 09:07:20 : INFO command:download,response:done
+Fri, 09 Aug 2019 09:07:20 : INFO command:download,response:
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:. done
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:Erased 1 sectors
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:Copy to Flash... done
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:Using UEC0 device
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:TFTP from server 192.168.1.252; our IP address is 192.168.1.254
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:Filename 'appversion'.
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:Load address: 0xa00000
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:Loading: *#################################################################
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:#####
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:done
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:Bytes transferred = 358216 (57748 hex)
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:vernum = 2.20.00
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:Un-Protect Flash Bank # 1
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:............ done
+Fri, 09 Aug 2019 09:07:21 : INFO command:download,response:
+Fri, 09 Aug 2019 09:07:32 : INFO command:download,response:........................................ done
+Fri, 09 Aug 2019 09:07:32 : INFO command:download,response:Erased 40 sectors
+Fri, 09 Aug 2019 09:07:37 : INFO command:download,response:Copy to Flash... done
+Fri, 09 Aug 2019 09:07:42 : INFO command:download,response:=>
+Fri, 09 Aug 2019 09:07:42 : INFO command:reset,response:reset
+Fri, 09 Aug 2019 09:07:42 : INFO command:reset,response:Resetting the board.
+Fri, 09 Aug 2019 09:07:42 : INFO command:reset,response:
+Fri, 09 Aug 2019 09:07:42 : INFO command:reset,response:
+Fri, 09 Aug 2019 09:07:42 : INFO command:reset,response:U-Boot 2011.03-00003-g38fc14f-dirty (Feb 06 2017 - 16:29:59) BSP-UBOOT-01.00.00
+Fri, 09 Aug 2019 09:07:42 : INFO command:reset,response:
+Fri, 09 Aug 2019 09:07:42 : INFO command:reset,response:Reset Status: Software Hard, External/Internal Hard
+Fri, 09 Aug 2019 09:07:42 : INFO command:reset,response:
+Fri, 09 Aug 2019 09:07:42 : INFO command:reset,response:CPU:   e300c3, MPC8306, Rev: 1.1 at 266.667 MHz, CSB: 133.333 MHz
+Fri, 09 Aug 2019 09:07:42 : INFO command:reset,response:DRAM:  64 MiB (DDR2, 64-bit, ECC off, 266.667 MHz)
+Fri, 09 Aug 2019 09:07:42 : INFO command:reset,response:Flash: 64 MiB
+Fri, 09 Aug 2019 09:07:42 : INFO command:reset,response:QE: uploading microcode is OK!
+Fri, 09 Aug 2019 09:07:42 : INFO command:reset,response:Using default environment
+Fri, 09 Aug 2019 09:07:42 : INFO command:reset,response:
+Fri, 09 Aug 2019 09:07:43 : INFO command:reset,response:In:    serial
+Fri, 09 Aug 2019 09:07:43 : INFO command:reset,response:Out:   serial
+Fri, 09 Aug 2019 09:07:43 : INFO command:reset,response:Err:   serial
+Fri, 09 Aug 2019 09:07:43 : INFO command:reset,response:Net:   UEC0, UEC1
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:Please input qwer to enter uboot:#0#  6  6  5  4  3  2  1  0 eth0 mac is not co
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:nform the distributed series, set default mac DC:44:27:A0:00:00
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:eth1 mac is not conform the distributed series, set default mac DC:44:27:A0:00:01
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:sys0 loadflag= 0 checkflag =0 , sys0 new downloaded or switched set loadflag 1 check flag 0
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:start sys0 version  bootm f0120000 f0400000 f0100000
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:## Booting kernel from Legacy Image at f0120000 ...
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:Image Name:   Linux-2.6.38.8
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:Image Type:   PowerPC Linux Kernel Image (gzip compressed)
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:Data Size:    1888661 Bytes = 1.8 MiB
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:Load Address: 00000000
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:Entry Point:  00000000
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:Verifying Checksum ... OK
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:## Loading init Ramdisk from Legacy Image at f0400000 ...
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:Image Name:   uRamdisk-ppc_8306
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:Image Type:   PowerPC Linux RAMDisk Image (gzip compressed)
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:Data Size:    9155277 Bytes = 8.7 MiB
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:Load Address: 00000000
+Fri, 09 Aug 2019 09:07:49 : INFO command:reset,response:Entry Point:  00000000
+Fri, 09 Aug 2019 09:07:53 : INFO command:reset,response:Verifying Checksum ... OK
+Fri, 09 Aug 2019 09:07:53 : INFO command:reset,response:## Flattened Device Tree blob at f0100000
+Fri, 09 Aug 2019 09:07:53 : INFO command:reset,response:Booting using the fdt blob at 0xf0100000
+Fri, 09 Aug 2019 09:07:55 : INFO command:reset,response:Uncompressing Kernel Image ... OK
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Loading Ramdisk to 02cf1000, end 035ac2cd ... OK
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Loading Device Tree to 007fa000, end 007fffff ... OK
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Using MPC8306 SOM machine description
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Linux version 2.6.38.8 (root@lg) (gcc version 4.1.2) #40 Thu Apr 12 03:58:14 CST 2018
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Found initrd at 0xc2cf1000:0xc35ac2cd
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:bootconsole [udbg0] enabled
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:setup_arch: bootmem
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:mpc8306_som_setup_arch()
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:arch: exit
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Zone PFN ranges:
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:DMA      0x00000000 -> 0x00004000
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Normal   empty
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Movable zone start PFN for each node
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:early_node_map[1] active PFN ranges
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:0: 0x00000000 -> 0x00004000
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16256
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Kernel command line: setenv bootargs root=/dev/ram rw console=ttyS5,115200
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:PID hash table entries: 256 (order: -2, 1024 bytes)
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Memory: 52020k/65536k available (3708k kernel code, 13516k reserved, 128k data, 87k bss, 164k init)
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Kernel virtual memory layout:
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:* 0xfffdf000..0xfffff000  : fixmap
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:* 0xfdef9000..0xfe000000  : early ioremap
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:* 0xc5000000..0xfdef9000  : vmalloc & ioremap
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:NR_IRQS:512 nr_irqs:512 16
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:IPIC (128 IRQ sources) at c5000700
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:clocksource: timebase mult[7800001] shift[22] registered
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:pid_max: default: 32768 minimum: 301
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Mount-cache hash table entries: 512
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:NET: Registered protocol family 16
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:bio: create slab <bio-0> at 0
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:SCSI subsystem initialized
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:usbcore: registered new interface driver usbfs
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:usbcore: registered new interface driver hub
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:usbcore: registered new device driver usb
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Switching to clocksource timebase
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:NET: Registered protocol family 2
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:TCP established hash table entries: 2048 (order: 2, 16384 bytes)
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:TCP: Hash tables configured (established 2048 bind 2048)
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:TCP reno registered
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:UDP hash table entries: 256 (order: 0, 4096 bytes)
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:NET: Registered protocol family 1
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:RPC: Registered udp transport module.
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:RPC: Registered tcp transport module.
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:RPC: Registered tcp NFSv4.1 backchannel transport module.
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Trying to unpack rootfs image as initramfs...
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:rootfs image is not initramfs (no cpio magic); looks like an initrd
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:Freeing initrd memory: 8940k freed
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:JFFS2 version 2.2. (NAND) Â© 2001-2006 Red Hat, Inc.
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:msgmni has been set to 119
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:io scheduler noop registered
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:io scheduler deadline registered
+Fri, 09 Aug 2019 09:07:57 : INFO command:reset,response:io scheduler cfq registered (default)
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:serial8250.0: ttyS0 at MMIO 0xe0004500 (irq = 16) is a 16550A
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:serial8250.0: ttyS1 at MMIO 0xe0004600 (irq = 16) is a 16550A
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:brd: module loaded
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:loop: module loaded
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:f0000000.flash: Found 1 x16 devices at 0x0 in 16-bit bank. Manufacturer ID 0x000001 Chip ID 0x002301
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:Amd/Fujitsu Extended Query Table at 0x0040
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:Amd/Fujitsu Extended Query version 1.5.
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:number of CFI chips: 1
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:RedBoot partition parsing not available
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:Creating 11 MTD partitions on "f0000000.flash":
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:0x000000000000-0x000000080000 : "Uboot_A"
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:0x000000080000-0x000000100000 : "Uboot_B"
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:0x000000100000-0x000000120000 : "Dtb_A"
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:0x000000120000-0x000000400000 : "Linux_A"
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:0x000000400000-0x000000e00000 : "Ramdisk_A"
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:0x000000e00000-0x000000e20000 : "Dtb_B"
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:0x000000e20000-0x000001100000 : "Linux_B"
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:0x000001100000-0x000001b00000 : "Ramdisk_B"
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:0x000001b00000-0x000002000000 : "App"
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:0x000002000000-0x000002200000 : "Data"
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:0x000002200000-0x000004000000 : "Reserved"
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:Fixed MDIO Bus: probed
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:ucc_geth: QE UCC Gigabit Ethernet Controller
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:ucc_geth: UCC1 at 0xe0102000 (irq = 17)
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:ucc_geth: UCC2 at 0xe0103000 (irq = 18)
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:usbmon: debugfs is not available
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:Initializing USB Mass Storage driver...
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:usbcore: registered new interface driver usb-storage
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:USB Mass Storage support registered.
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:sdhci: Secure Digital Host Controller Interface driver
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:sdhci: Copyright(c) Pierre Ossman
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:TCP cubic registered
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:NET: Registered protocol family 17
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:Registering the dns_resolver key type
+Fri, 09 Aug 2019 09:07:58 : INFO command:reset,response:turn off boot console udbg0
+Fri, 09 Aug 2019 09:07:58 : INFO [单板网口测试]测试成功，输出:app版本=下载成功
+Fri, 09 Aug 2019 09:09:24 : INFO EEPROM测试(编号:03)测试失败：建立连接失败，EEPROM测试失败，输出:<无>
+Fri, 09 Aug 2019 09:09:24 : INFO 产品[RD52_RSU][RSDB5单板功能测试工位]测试完成，结果不通过！
+Fri, 09 Aug 2019 09:10:25 : INFO 单机登录，即将测试[RD52_RSU]产品的[RSDB5单板功能测试工位]
+Fri, 09 Aug 2019 09:10:30 : INFO 开始测试产品[RD52_RSU]的[RSDB5单板功能测试工位](维修测试)
+Fri, 09 Aug 2019 09:10:30 : INFO [EEPROM测试]测试成功，输出:EEPROM测试=EEPROM读写成功
+Fri, 09 Aug 2019 09:10:30 : INFO 产品[RD52_RSU][RSDB5单板功能测试工位]测试完成，测试通过！
+Fri, 09 Aug 2019 11:30:41 : INFO 单机登录，即将测试[RD52_RSU]产品的[RSDB5单板功能测试工位]
+Fri, 09 Aug 2019 11:30:51 : INFO 开始测试产品[RD52_RSU]的[RSDB5单板功能测试工位](维修测试)
+Fri, 09 Aug 2019 11:30:55 : INFO Opening serial port u'com4'
+Fri, 09 Aug 2019 11:30:57 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 11:30:57 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 11:30:57 : INFO command:shhtj,response:U-Boot 2011.03-00003-g38fc14f-dirty (Feb 06 2017 - 16:29:59) BSP-UBOOT-01.00.00
+Fri, 09 Aug 2019 11:30:57 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 11:30:57 : INFO command:shhtj,response:Reset Status:
+Fri, 09 Aug 2019 11:30:57 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 11:30:57 : INFO command:shhtj,response:CPU:   e300c3, MPC8306, Rev: 1.1 at 266.667 MHz, CSB: 133.333 MHz
+Fri, 09 Aug 2019 11:30:57 : INFO command:shhtj,response:DRAM:  64 MiB (DDR2, 64-bit, ECC off, 266.667 MHz)
+Fri, 09 Aug 2019 11:30:57 : INFO command:shhtj,response:Flash: 64 MiB
+Fri, 09 Aug 2019 11:30:57 : INFO command:shhtj,response:QE: uploading microcode is OK!
+Fri, 09 Aug 2019 11:30:57 : INFO command:shhtj,response:Using default environment
+Fri, 09 Aug 2019 11:30:57 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 11:30:57 : INFO command:shhtj,response:In:    serial
+Fri, 09 Aug 2019 11:30:57 : INFO command:shhtj,response:Out:   serial
+Fri, 09 Aug 2019 11:30:57 : INFO command:shhtj,response:Err:   serial
+Fri, 09 Aug 2019 11:30:57 : INFO command:shhtj,response:Net:   UEC0, UEC1
+Fri, 09 Aug 2019 11:30:58 : INFO command:shhtj,response:before download version, you should prepare tftp server
+Fri, 09 Aug 2019 11:30:58 : INFO command:shhtj,response:download version steps:
+Fri, 09 Aug 2019 11:30:58 : INFO command:shhtj,response:1. setenv ipaddr 192.168.1.210
+Fri, 09 Aug 2019 11:30:58 : INFO command:shhtj,response:2. setenv serverip  192.168.1.200
+Fri, 09 Aug 2019 11:30:58 : INFO command:shhtj,response:3. download  #download appversion and sysversion
+Fri, 09 Aug 2019 11:30:58 : INFO command:shhtj,response:dlsys  #download sysversion
+Fri, 09 Aug 2019 11:30:58 : INFO command:shhtj,response:dlapp #download appversion
+Fri, 09 Aug 2019 11:30:58 : INFO command:shhtj,response:dlboot #download boot
+Fri, 09 Aug 2019 11:30:58 : INFO command:shhtj,response:4. reset
+Fri, 09 Aug 2019 11:30:59 : INFO command:download,response:tenv ipaddr 222.255.255.253
+Fri, 09 Aug 2019 11:30:59 : INFO command:download,response:=> setenv serverip 192.168.1.252
+Fri, 09 Aug 2019 11:30:59 : INFO command:download,response:=> download
+Fri, 09 Aug 2019 11:30:59 : INFO command:download,response:UEC: PHY is Fixed PHY (ffffffff)
+Fri, 09 Aug 2019 11:30:59 : INFO command:download,response:Waiting for PHY auto negotiation to complete done
+Fri, 09 Aug 2019 11:31:01 : INFO command:download,response:UEC0: Full Duplex
+Fri, 09 Aug 2019 11:31:01 : INFO command:download,response:UEC0: Speed 100BT
+Fri, 09 Aug 2019 11:31:01 : INFO command:download,response:UEC0: Link is up
+Fri, 09 Aug 2019 11:31:01 : INFO command:download,response:Using UEC0 device
+Fri, 09 Aug 2019 11:31:01 : INFO command:download,response:TFTP from server 192.168.1.252; our IP address is 222.255.255.253; sending through gateway 192.168.0
+Fri, 09 Aug 2019 11:31:01 : INFO command:download,response:.2
+Fri, 09 Aug 2019 11:31:01 : INFO command:download,response:Filename 'sysversion'.
+Fri, 09 Aug 2019 11:31:01 : INFO command:download,response:Load address: 0x500000
+Fri, 09 Aug 2019 11:31:06 : INFO command:download,response:Loading: *
+Fri, 09 Aug 2019 11:31:11 : INFO command:download,response:T
+Fri, 09 Aug 2019 11:31:16 : INFO command:download,response:T
+Fri, 09 Aug 2019 11:31:21 : INFO command:download,response:T
+Fri, 09 Aug 2019 11:31:27 : INFO command:download,response:T
+Fri, 09 Aug 2019 11:31:31 : INFO command:download,response:T
+Fri, 09 Aug 2019 11:31:36 : INFO command:download,response:T
+Fri, 09 Aug 2019 11:31:41 : INFO command:download,response:T
+Fri, 09 Aug 2019 11:31:46 : INFO command:download,response:T
+Fri, 09 Aug 2019 11:31:51 : INFO command:download,response:T
+Fri, 09 Aug 2019 11:31:56 : INFO command:download,response:T
+Fri, 09 Aug 2019 11:31:56 : INFO command:download,response:
+Fri, 09 Aug 2019 11:31:56 : INFO command:download,response:Retry count exceeded; starting again
+Fri, 09 Aug 2019 11:31:57 : INFO 单板网口测试(编号:02)测试失败：BOOT下载失败，可能是没有打开TFTP，输出:<无>
+Fri, 09 Aug 2019 11:31:57 : INFO 产品[RD52_RSU][RSDB5单板功能测试工位]测试完成，结果不通过！
+Fri, 09 Aug 2019 11:32:17 : INFO 单机登录，即将测试[RD52_RSU]产品的[RSDB5单板功能测试工位]
+Fri, 09 Aug 2019 11:32:21 : INFO 开始测试产品[RD52_RSU]的[RSDB5单板功能测试工位](维修测试)
+Fri, 09 Aug 2019 11:32:22 : INFO Opening serial port u'com4'
+Fri, 09 Aug 2019 11:32:24 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 11:32:24 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 11:32:24 : INFO command:shhtj,response:U-Boot 2011.03-00003-g38fc14f-dirty (Feb 06 2017 - 16:29:59) BSP-UBOOT-01.00.00
+Fri, 09 Aug 2019 11:32:24 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 11:32:24 : INFO command:shhtj,response:Reset Status:
+Fri, 09 Aug 2019 11:32:24 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 11:32:24 : INFO command:shhtj,response:CPU:   e300c3, MPC8306, Rev: 1.1 at 266.667 MHz, CSB: 133.333 MHz
+Fri, 09 Aug 2019 11:32:24 : INFO command:shhtj,response:DRAM:  64 MiB (DDR2, 64-bit, ECC off, 266.667 MHz)
+Fri, 09 Aug 2019 11:32:24 : INFO command:shhtj,response:Flash: 64 MiB
+Fri, 09 Aug 2019 11:32:24 : INFO command:shhtj,response:QE: uploading microcode is OK!
+Fri, 09 Aug 2019 11:32:24 : INFO command:shhtj,response:Using default environment
+Fri, 09 Aug 2019 11:32:24 : INFO command:shhtj,response:
+Fri, 09 Aug 2019 11:32:24 : INFO command:shhtj,response:In:    serial
+Fri, 09 Aug 2019 11:32:24 : INFO command:shhtj,response:Out:   serial
+Fri, 09 Aug 2019 11:32:24 : INFO command:shhtj,response:Err:   serial
+Fri, 09 Aug 2019 11:32:24 : INFO command:shhtj,response:Net:   UEC0, UEC1
+Fri, 09 Aug 2019 11:32:25 : INFO command:shhtj,response:before download version, you should prepare tftp server
+Fri, 09 Aug 2019 11:32:25 : INFO command:shhtj,response:download version steps:
+Fri, 09 Aug 2019 11:32:25 : INFO command:shhtj,response:1. setenv ipaddr 192.168.1.210
+Fri, 09 Aug 2019 11:32:25 : INFO command:shhtj,response:2. setenv serverip  192.168.1.200
+Fri, 09 Aug 2019 11:32:25 : INFO command:shhtj,response:3. download  #download appversion and sysversion
+Fri, 09 Aug 2019 11:32:25 : INFO command:shhtj,response:dlsys  #download sysversion
+Fri, 09 Aug 2019 11:32:25 : INFO command:shhtj,response:dlapp #download appversion
+Fri, 09 Aug 2019 11:32:25 : INFO command:shhtj,response:dlboot #download boot
+Fri, 09 Aug 2019 11:32:25 : INFO command:shhtj,response:4. reset
+Fri, 09 Aug 2019 11:32:26 : INFO command:download,response:env ipaddr 222.255.255.253
+Fri, 09 Aug 2019 11:32:26 : INFO command:download,response:=> setenv serverip 222.255.255.251
+Fri, 09 Aug 2019 11:32:26 : INFO command:download,response:=> download
+Fri, 09 Aug 2019 11:32:26 : INFO command:download,response:UEC: PHY is Fixed PHY (ffffffff)
+Fri, 09 Aug 2019 11:32:26 : INFO command:download,response:Waiting for PHY auto negotiation to complete done
+Fri, 09 Aug 2019 11:32:28 : INFO command:download,response:UEC0: Full Duplex
+Fri, 09 Aug 2019 11:32:28 : INFO command:download,response:UEC0: Speed 100BT
+Fri, 09 Aug 2019 11:32:28 : INFO command:download,response:UEC0: Link is up
+Fri, 09 Aug 2019 11:32:28 : INFO command:download,response:Using UEC0 device
+Fri, 09 Aug 2019 11:32:28 : INFO command:download,response:TFTP from server 222.255.255.251; our IP address is 222.255.255.253
+Fri, 09 Aug 2019 11:32:28 : INFO command:download,response:Filename 'sysversion'.
+Fri, 09 Aug 2019 11:32:28 : INFO command:download,response:Load address: 0x500000
+Fri, 09 Aug 2019 11:32:28 : INFO command:download,response:Loading: *#################################################################
+Fri, 09 Aug 2019 11:32:28 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:29 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:29 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:29 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:29 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:29 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:30 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:30 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:30 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:30 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:30 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:31 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:31 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:31 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:31 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:31 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:32 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:32 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:32 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:32 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:33 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:33 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:33 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:33 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:33 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:34 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:34 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:34 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:34 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:35 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:35 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:35 : INFO command:download,response:#################################################################
+Fri, 09 Aug 2019 11:32:35 : INFO command:download,response:###############
+Fri, 09 Aug 2019 11:32:35 : INFO command:download,response:done
+Fri, 09 Aug 2019 11:32:35 : INFO command:download,response:Bytes transferred = 11057378 (a8b8e2 hex)
+Fri, 09 Aug 2019 11:32:35 : INFO command:download,response:vernum = 2.00.00 ls=1888725 rs=9155341 ds =12288
+Fri, 09 Aug 2019 11:32:35 : INFO command:download,response:Un-Protect Flash Bank # 1
+Fri, 09 Aug 2019 11:32:35 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 11:32:35 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 11:32:35 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 11:32:35 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 11:32:35 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 11:32:35 : INFO command:download,response:............ done
+Fri, 09 Aug 2019 11:32:35 : INFO command:download,response:
+Fri, 09 Aug 2019 11:32:41 : INFO command:download,response:....................... done
+Fri, 09 Aug 2019 11:32:41 : INFO command:download,response:Erased 23 sectors
+Fri, 09 Aug 2019 11:32:43 : INFO command:download,response:Copy to Flash... done
+Fri, 09 Aug 2019 11:32:43 : INFO command:download,response:
+Fri, 09 Aug 2019 11:33:02 : INFO command:download,response:................................................................................ done
+Fri, 09 Aug 2019 11:33:02 : INFO command:download,response:Erased 80 sectors
+Fri, 09 Aug 2019 11:33:07 : INFO command:download,response:Copy to Flash...
+Fri, 09 Aug 2019 11:33:11 : INFO command:download,response:done
+Fri, 09 Aug 2019 11:33:11 : INFO command:download,response:
+Fri, 09 Aug 2019 11:33:11 : INFO command:download,response:. done
+Fri, 09 Aug 2019 11:33:11 : INFO command:download,response:Erased 1 sectors
+Fri, 09 Aug 2019 11:33:11 : INFO command:download,response:Copy to Flash... done
+Fri, 09 Aug 2019 11:33:11 : INFO command:download,response:write sys0 version_no to eeprom error
+Fri, 09 Aug 2019 11:33:11 : INFO command:download,response:write sys0 load and check flag to eeprom error
+Fri, 09 Aug 2019 11:33:11 : INFO command:download,response:
+Fri, 09 Aug 2019 11:33:17 : INFO command:download,response:....................... done
+Fri, 09 Aug 2019 11:33:17 : INFO command:download,response:Erased 23 sectors
+Fri, 09 Aug 2019 11:33:19 : INFO command:download,response:Copy to Flash... done
+Fri, 09 Aug 2019 11:33:19 : INFO command:download,response:
+Fri, 09 Aug 2019 11:33:39 : INFO command:download,response:................................................................................ done
+Fri, 09 Aug 2019 11:33:39 : INFO command:download,response:Erased 80 sectors
+Fri, 09 Aug 2019 11:33:44 : INFO command:download,response:Copy to Flash...
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:done
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:. done
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:Erased 1 sectors
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:Copy to Flash... done
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:write sys1 version_no to eeprom error
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:write sys1 load and check flag to eeprom error
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:Using UEC0 device
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:TFTP from server 222.255.255.251; our IP address is 222.255.255.253
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:Filename 'appversion'.
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:Load address: 0xa00000
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:Loading: *#################################################################
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:#####
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:done
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:Bytes transferred = 358216 (57748 hex)
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:vernum = 2.20.00
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:Un-Protect Flash Bank # 1
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:....................................................................................................
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:............ done
+Fri, 09 Aug 2019 11:33:48 : INFO command:download,response:
+Fri, 09 Aug 2019 11:33:59 : INFO command:download,response:........................................ done
+Fri, 09 Aug 2019 11:33:59 : INFO command:download,response:Erased 40 sectors
+Fri, 09 Aug 2019 11:34:04 : INFO command:download,response:Copy to Flash...
+Fri, 09 Aug 2019 11:34:04 : INFO command:download,response:done
+Fri, 09 Aug 2019 11:34:04 : INFO command:download,response:write app version_no to eeprom error
+Fri, 09 Aug 2019 11:34:09 : INFO command:download,response:=>
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:reset
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:Resetting the board.
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:U-Boot 2011.03-00003-g38fc14f-dirty (Feb 06 2017 - 16:29:59) BSP-UBOOT-01.00.00
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:Reset Status: Software Hard, External/Internal Hard
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:CPU:   e300c3, MPC8306, Rev: 1.1 at 266.667 MHz, CSB: 133.333 MHz
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:DRAM:  64 MiB (DDR2, 64-bit, ECC off, 266.667 MHz)
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:Flash: 64 MiB
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:QE: uploading microcode is OK!
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:Using default environment
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:In:    serial
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:Out:   serial
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:Err:   serial
+Fri, 09 Aug 2019 11:34:09 : INFO command:reset,response:Net:   UEC0, UEC1
+Fri, 09 Aug 2019 11:34:15 : INFO command:reset,response:Please input qwer to enter uboot:#0#  6  6  5  4  3  2  1  0 eth0 mac is not co
+Fri, 09 Aug 2019 11:34:15 : INFO command:reset,response:nform the distributed series, set default mac DC:44:27:A0:00:00
+Fri, 09 Aug 2019 11:34:15 : INFO command:reset,response:eth1 mac is not conform the distributed series, set default mac DC:44:27:A0:00:01
+Fri, 09 Aug 2019 11:34:15 : INFO command:reset,response:sysstartflag is not 0 or 1 then set startflag =0 and set sys0 loadflag=1 checkflag
+Fri, 09 Aug 2019 11:34:15 : INFO command:reset,response:start sys0 version bootm f0120000 f0400000 f0100000
+Fri, 09 Aug 2019 11:34:15 : INFO command:reset,response:## Booting kernel from Legacy Image at f0120000 ...
+Fri, 09 Aug 2019 11:34:15 : INFO command:reset,response:Image Name:   Linux-2.6.38.8
+Fri, 09 Aug 2019 11:34:15 : INFO command:reset,response:Image Type:   PowerPC Linux Kernel Image (gzip compressed)
+Fri, 09 Aug 2019 11:34:15 : INFO command:reset,response:Data Size:    1888661 Bytes = 1.8 MiB
+Fri, 09 Aug 2019 11:34:15 : INFO command:reset,response:Load Address: 00000000
+Fri, 09 Aug 2019 11:34:15 : INFO command:reset,response:Entry Point:  00000000
+Fri, 09 Aug 2019 11:34:16 : INFO command:reset,response:Verifying Checksum ... OK
+Fri, 09 Aug 2019 11:34:16 : INFO command:reset,response:## Loading init Ramdisk from Legacy Image at f0400000 ...
+Fri, 09 Aug 2019 11:34:16 : INFO command:reset,response:Image Name:   uRamdisk-ppc_8306
+Fri, 09 Aug 2019 11:34:16 : INFO command:reset,response:Image Type:   PowerPC Linux RAMDisk Image (gzip compressed)
+Fri, 09 Aug 2019 11:34:16 : INFO command:reset,response:Data Size:    9155277 Bytes = 8.7 MiB
+Fri, 09 Aug 2019 11:34:16 : INFO command:reset,response:Load Address: 00000000
+Fri, 09 Aug 2019 11:34:16 : INFO command:reset,response:Entry Point:  00000000
+Fri, 09 Aug 2019 11:34:19 : INFO command:reset,response:Verifying Checksum ... OK
+Fri, 09 Aug 2019 11:34:19 : INFO command:reset,response:## Flattened Device Tree blob at f0100000
+Fri, 09 Aug 2019 11:34:20 : INFO command:reset,response:Booting using the fdt blob at 0xf0100000
+Fri, 09 Aug 2019 11:34:21 : INFO command:reset,response:Uncompressing Kernel Image ... OK
+Fri, 09 Aug 2019 11:34:23 : INFO command:reset,response:Loading Ramdisk to 02cf1000, end 035ac2cd ... OK
+Fri, 09 Aug 2019 11:34:23 : INFO command:reset,response:Loading Device Tree to 007fa000, end 007fffff ... OK
+Fri, 09 Aug 2019 11:34:23 : INFO command:reset,response:Using MPC8306 SOM machine description
+Fri, 09 Aug 2019 11:34:23 : INFO command:reset,response:Linux version 2.6.38.8 (root@lg) (gcc version 4.1.2) #40 Thu Apr 12 03:58:14 CST 2018
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:Found initrd at 0xc2cf1000:0xc35ac2cd
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:bootconsole [udbg0] enabled
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:setup_arch: bootmem
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:mpc8306_som_setup_arch()
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:arch: exit
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:Zone PFN ranges:
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:DMA      0x00000000 -> 0x00004000
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:Normal   empty
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:Movable zone start PFN for each node
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:early_node_map[1] active PFN ranges
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:0: 0x00000000 -> 0x00004000
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16256
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:Kernel command line: setenv bootargs root=/dev/ram rw console=ttyS5,115200
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:PID hash table entries: 256 (order: -2, 1024 bytes)
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:Dentry cache hash table entries: 8192 (order: 3, 32768 bytes)
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:Inode-cache hash table entries: 4096 (order: 2, 16384 bytes)
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:Memory: 52020k/65536k available (3708k kernel code, 13516k reserved, 128k data, 87k bss, 164k init)
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:Kernel virtual memory layout:
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:* 0xfffdf000..0xfffff000  : fixmap
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:* 0xfdef9000..0xfe000000  : early ioremap
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:* 0xc5000000..0xfdef9000  : vmalloc & ioremap
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:NR_IRQS:512 nr_irqs:512 16
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:IPIC (128 IRQ sources) at c5000700
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:clocksource: timebase mult[7800001] shift[22] registered
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:pid_max: default: 32768 minimum: 301
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:Mount-cache hash table entries: 512
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:NET: Registered protocol family 16
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:bio: create slab <bio-0> at 0
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:SCSI subsystem initialized
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:usbcore: registered new interface driver usbfs
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:usbcore: registered new interface driver hub
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:usbcore: registered new device driver usb
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:Switching to clocksource timebase
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:NET: Registered protocol family 2
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:TCP established hash table entries: 2048 (order: 2, 16384 bytes)
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:TCP: Hash tables configured (established 2048 bind 2048)
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:TCP reno registered
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:UDP hash table entries: 256 (order: 0, 4096 bytes)
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:NET: Registered protocol family 1
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:RPC: Registered udp transport module.
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:RPC: Registered tcp transport module.
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:RPC: Registered tcp NFSv4.1 backchannel transport module.
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:Trying to unpack rootfs image as initramfs...
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:rootfs image is not initramfs (no cpio magic); looks like an initrd
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:Freeing initrd memory: 8940k freed
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:JFFS2 version 2.2. (NAND) Â© 2001-2006 Red Hat, Inc.
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:msgmni has been set to 119
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:io scheduler noop registered
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:io scheduler deadline registered
+Fri, 09 Aug 2019 11:34:24 : INFO command:reset,response:io scheduler cfq registered (default)
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:serial8250.0: ttyS0 at MMIO 0xe0004500 (irq = 16) is a 16550A
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:serial8250.0: ttyS1 at MMIO 0xe0004600 (irq = 16) is a 16550A
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:brd: module loaded
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:loop: module loaded
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:f0000000.flash: Found 1 x16 devices at 0x0 in 16-bit bank. Manufacturer ID 0x000001 Chip ID 0x002301
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:Amd/Fujitsu Extended Query Table at 0x0040
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:Amd/Fujitsu Extended Query version 1.5.
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:number of CFI chips: 1
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:RedBoot partition parsing not available
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:Creating 11 MTD partitions on "f0000000.flash":
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:0x000000000000-0x000000080000 : "Uboot_A"
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:0x000000080000-0x000000100000 : "Uboot_B"
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:0x000000100000-0x000000120000 : "Dtb_A"
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:0x000000120000-0x000000400000 : "Linux_A"
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:0x000000400000-0x000000e00000 : "Ramdisk_A"
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:0x000000e00000-0x000000e20000 : "Dtb_B"
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:0x000000e20000-0x000001100000 : "Linux_B"
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:0x000001100000-0x000001b00000 : "Ramdisk_B"
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:0x000001b00000-0x000002000000 : "App"
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:0x000002000000-0x000002200000 : "Data"
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:0x000002200000-0x000004000000 : "Reserved"
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:Fixed MDIO Bus: probed
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:ucc_geth: QE UCC Gigabit Ethernet Controller
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:ucc_geth: UCC1 at 0xe0102000 (irq = 17)
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:ucc_geth: UCC2 at 0xe0103000 (irq = 18)
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:usbmon: debugfs is not available
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:Initializing USB Mass Storage driver...
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:usbcore: registered new interface driver usb-storage
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:USB Mass Storage support registered.
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:sdhci: Secure Digital Host Controller Interface driver
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:sdhci: Copyright(c) Pierre Ossman
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:TCP cubic registered
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:NET: Registered protocol family 17
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:Registering the dns_resolver key type
+Fri, 09 Aug 2019 11:34:25 : INFO command:reset,response:turn off boot console udbg0
+Fri, 09 Aug 2019 11:34:25 : INFO [单板网口测试]测试成功，输出:app版本=下载成功
+Fri, 09 Aug 2019 11:35:27 : INFO EEPROM测试(编号:03)测试失败：建立连接失败，EEPROM测试失败，输出:<无>
+Fri, 09 Aug 2019 11:35:27 : INFO 产品[RD52_RSU][RSDB5单板功能测试工位]测试完成，结果不通过！

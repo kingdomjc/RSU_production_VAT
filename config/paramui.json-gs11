@@ -1,0 +1,17 @@
+[
+{"name":"gs10PlateDeviceCom","desc":"工装板串口号","type":"str"},
+{"name":"barScannerType","desc":"扫码枪型号","type":"str"},
+{"name":"ioBoardCom","desc":"工控IO板串口号","type":"str"},
+{"name":"cableComsuption","desc":"线损","type":"float"},
+{"name":"beepFreq","desc":"提示蜂鸣器频率","type":"int"},
+{"name":"autoLoginUsername","desc":"自动登录用户名","type":"str"},
+{"name":"autoLoginPassword","desc":"自动登录密码","type":"str"},
+{"name":"barCodeCaptureId","desc":"条码抓拍摄像头编号","type":"int"},
+{"name":"lcdCaptureId","desc":"LCD编号","type":"int"},
+{"name":"tradeReaderType","desc":"交易测试发卡器类型","type":"str"},
+{"name":"gs11.wakeup.power.low","desc":"低唤醒灵敏度功率","type":"float"},
+{"name":"gs11.wakeup.power.high","desc":"高唤醒灵敏度功率","type":"float"},
+{"name":"gs11.receiveSensitivity.power","desc":"接收灵敏度测试功率","type":"float"},
+{"name":"gs11.sendPower.low","desc":"OBU发射功率判定下阈值","type":"float"},
+{"name":"gs11.sendPower.high","desc":"OBU发射功率判定上阈值","type":"float"}
+]

@@ -1,0 +1,14 @@
+{
+ "defaultSuite": "RD50C  RSU\u63a7\u5236\u5355\u5143\u751f\u4ea7\u6d4b\u8bd5\u9879\u76ee", 
+ "defaultProduct": "RD50C", 
+ "autoLoginUsername": "super", 
+ "productSlots": "1,2,3,4", 
+ "beepFreq": 2000, 
+ "maxLogItemNumber": 100, 
+ "defaultServerIp": "192.168.11.13", 
+ "workbay": "one", 
+ "productIps": "192.168.10.21,192.168.10.22,192.168.10.23,192.168.10.24,192.168.10.25,192.168.10.26", 
+ "productUiSlots": "0,1;1,1;2,1;3,1;0,2;1,2;2,2;3,2", 
+ "autoLoginPassword": "000000", 
+ "PARAM_UI_FILENAME": "config/OBU_tc56/paramui.json-tc56"
+}

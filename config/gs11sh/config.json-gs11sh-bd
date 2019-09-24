@@ -1,0 +1,21 @@
+{
+ "boardDigitalFixtureCom": "com15", 
+ "defaultSuite": "\u5355\u677f\u6570\u5b57\u6d4b\u8bd5", 
+ "defaultProduct": "TEST_OBU", 
+ "integratedVatBoardPort": 5000, 
+ "macPrefix": "88", 
+ "autoLoginUsername": "super", 
+ "productSlots": "1,2,3,4,5,6", 
+ "beepFreq": 2000, 
+ "integratedVatBoardIp": "127.0.0.1", 
+ "maxLogItemNumber": 1000, 
+ "greenLedSensorThreshold": "4,4,9,9,9,9", 
+ "redLedSensorThreshold": "15,15,15,15,15,15", 
+ "defaultServerIp": "single", 
+ "ioBoardCom": "com12", 
+ "workbay": "patch", 
+ "soundLightDetectorCom": "com8", 
+ "productUiSlots": "2,1;1,1;0,1;0,0;1,0;2,0", 
+ "autoLoginPassword": "000000", 
+ "PARAM_UI_FILENAME": "config/gs11sh/paramui.json-gs11sh-bd"
+}

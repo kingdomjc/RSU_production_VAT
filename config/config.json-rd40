@@ -1,0 +1,12 @@
+{
+ "defaultSuite": "\u4e3b\u8bbe\u5907\u5355\u677f\u6d4b\u8bd5", 
+ "defaultProduct": "KC-RD40-M", 
+ "autoLoginUsername": "admin", 
+ "beepFreq": 2000, 
+ "maxLogItemNumber": 1000, 
+ "defaultServerIp": "192.168.10.61", 
+ "workbay": "patch", 
+ "readerSerialCom": "com3", 
+ "autoLoginPassword": "000000", 
+ "PARAM_UI_FILENAME": "hhplt/paramui.json-rd40"
+}

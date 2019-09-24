@@ -1,0 +1,10 @@
+[
+{"name":"gs15ReaderIp","desc":"阅读器地址","type":"str"},
+{"name":"gs15ReaderPort","desc":"阅读器端口","type":"int"},
+{"name":"beepFreq","desc":"提示蜂鸣器频率","type":"int"},
+{"name":"gs15epcLength","desc":"EPC长度（字）","type":"int"},
+{"name":"gs15userLength","desc":"USER区长度（字）","type":"int"},
+{"name":"gs15tidLength","desc":"TID区长度（字）","type":"int"},
+{"name":"gs15accessPassword","desc":"Access密码","type":"str"},
+{"name":"readerType","desc":"读写器型号","type":"str"}
+]

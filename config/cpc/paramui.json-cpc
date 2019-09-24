@@ -1,0 +1,21 @@
+[
+	{"name":"downloadBoardCom","desc":"下载板串口号","type":"str"},
+	{"name":"ioBoardCom","desc":"下载IO控制串口","type":"str"},
+	{"name":"psamSlotId","desc":"PSAM卡槽号","type":"int"},
+	{"name":"powerLimit","desc":"卡片电量下限（百分比）","type":"int"},
+	{"name":"targetRouteInfo","desc":"检验路径信息","type":"str"},
+	{"name":"refCpcId","desc":"基准CPCID","type":"str"},
+	{"name":"refMac","desc":"基准MAC","type":"str"},
+	{"name":"carvingMachinePort","desc":"镭雕机端口号","type":"int"},
+	{"name":"duplicateCheckService","desc":"判重服务地址","type":"str"},
+	{"name":"startCpcId","desc":"CPCID范围-开始","type":"str"},
+	{"name":"endCpcId","desc":"CPCID范围-结束","type":"str"},
+	{"name":"issuerId","desc":"发行方标识","type":"str"},
+	{"name":"cpcIdRadix","desc":"CPCID进制","type":"int"},
+	{"name":"masterKey","desc":"密钥值1(MasterKey)","type":"str"},
+	{"name":"ik1","desc":"密钥值2(IK1)","type":"str"},
+	{"name":"uk1","desc":"密钥值3(UK1)","type":"str"},
+	{"name":"uk2","desc":"密钥值4(UK2)","type":"str"},
+	{"name":"distriLevel","desc":"分散级别","type":"int"},
+	{"name":"isSpec","desc":"是否擦除ESAM（1-擦除，2-不擦）","type":"int"}
+]
